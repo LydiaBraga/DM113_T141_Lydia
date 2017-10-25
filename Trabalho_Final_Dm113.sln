@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstoqueEntityModel", "EstoqueEntityModel\EstoqueEntityModel.csproj", "{B98E1115-B77B-467A-A976-B2EF925965D8}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "EstoqueService", "EstoqueService\", "{F582654D-914F-446E-9101-0E0EF9BADAF2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{b98e1115-b77b-467a-a976-b2ef925965d8}|EstoqueEntityModel.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51883"
+		Debug.AspNetCompiler.PhysicalPath = "EstoqueService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51883\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51883"
+		Release.AspNetCompiler.PhysicalPath = "EstoqueService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51883\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51883"
+		SlnRelativePath = "EstoqueService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstoqueServiceLibrary", "EstoqueServiceLibrary\EstoqueServiceLibrary.csproj", "{C19C6E49-1487-4034-91D0-07F7EF1B9568}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstoqueServiceHost", "EstoqueServiceHost\EstoqueServiceHost.csproj", "{BB53760A-5595-4AFE-9762-58B414FD9729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstoqueClient", "EstoqueClient\EstoqueClient.csproj", "{CE550AE3-94BB-4838-ACE9-3081AD37D122}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F582654D-914F-446E-9101-0E0EF9BADAF2} = {F582654D-914F-446E-9101-0E0EF9BADAF2}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstoqueClientV2", "EstoqueClientV2\EstoqueClientV2.csproj", "{144794AC-6D6B-4404-B14C-28A53F1D2FC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B98E1115-B77B-467A-A976-B2EF925965D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B98E1115-B77B-467A-A976-B2EF925965D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B98E1115-B77B-467A-A976-B2EF925965D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B98E1115-B77B-467A-A976-B2EF925965D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F582654D-914F-446E-9101-0E0EF9BADAF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F582654D-914F-446E-9101-0E0EF9BADAF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F582654D-914F-446E-9101-0E0EF9BADAF2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F582654D-914F-446E-9101-0E0EF9BADAF2}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C19C6E49-1487-4034-91D0-07F7EF1B9568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C19C6E49-1487-4034-91D0-07F7EF1B9568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C19C6E49-1487-4034-91D0-07F7EF1B9568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C19C6E49-1487-4034-91D0-07F7EF1B9568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB53760A-5595-4AFE-9762-58B414FD9729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB53760A-5595-4AFE-9762-58B414FD9729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB53760A-5595-4AFE-9762-58B414FD9729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB53760A-5595-4AFE-9762-58B414FD9729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE550AE3-94BB-4838-ACE9-3081AD37D122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE550AE3-94BB-4838-ACE9-3081AD37D122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE550AE3-94BB-4838-ACE9-3081AD37D122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE550AE3-94BB-4838-ACE9-3081AD37D122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{144794AC-6D6B-4404-B14C-28A53F1D2FC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{144794AC-6D6B-4404-B14C-28A53F1D2FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{144794AC-6D6B-4404-B14C-28A53F1D2FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{144794AC-6D6B-4404-B14C-28A53F1D2FC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DC150A0-6441-43CB-812F-10CC9795D518}
+	EndGlobalSection
+EndGlobal
